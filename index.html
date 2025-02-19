@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+
+  <body>
+    <div class="main">
+    <div id="root"></div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="main.js"></script>
+    
+
+
+<div class="trivia">
+    <h1>¡Trivia time!</h1>
+    <h2 >¡Hola! Hoy te pondremos a prueba sobre tus conocimientos <br>sobre el famoso moba de Riot Games: <b>League of Legends®</b></h2>
+ <img class="decoracion" src="./imagenes/decorator-hr-lg.png" alt="espacio y decoracion">
+
+    <img class="logo" src="./imagenes/lol_logo.png" alt="logo de League of Legends">
+
+
+ 
+  </div>
+<div class="container">
+  <section>    
+    <h2>¿En qué año se lanzó League of Legends?</h2>
+    <label><input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> 2007</label>
+    <label><input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> 2009</label> <!-- Respuesta correcta -->
+    <label><input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> 2011</label>
+    </section>
+<button class="btnsiguiente">Verificar</button>
+
+</div>
+
+
+</body>
+</div>
+
+<footer>
+  Sitio creado por Stephany Castillo 2025. Proyecto personal sin fines comerciales. <br><b>League of Legends® y sus elementos son propiedad de Riot Games.</b>
+</footer>
+</html>

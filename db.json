@@ -1,0 +1,34 @@
+[
+      {
+        "pregunta": "¿En qué año se lanzó League of Legends?",
+        "respuesta": "2009",
+        "incorrecta1": "2011",
+        "incorrecta2": "2007"
+      },
+      {
+        "pregunta": "¿Cuál es el objetivo principal en el mapa de la Grieta del Invocador?",
+        "respuesta": "Destruir el Nexo enemigo",
+        "incorrecta1": "Matar a todos los enemigos",
+        "incorrecta2": "Controlar el Dragón"
+      },
+      {
+        "pregunta": "¿Quién es el creador de League of Legends?",
+        "respuesta": "Riot Games",
+        "incorrecta1": "Epic Games",
+        "incorrecta2": "Blizzard"
+      },
+      {
+        "pregunta": "¿Cuál es el rol de Yasuo en League of Legends?",
+        "respuesta": "Asesino",
+        "incorrecta1": "Soporte",
+        "incorrecta2": "Tanque"
+      },
+      {
+        "pregunta": "¿En qué mapa se juegan las partidas normales de League of Legends?",
+        "respuesta": "La Grieta del Invocador",
+        "incorrecta1": "La Isla de la Niebla",
+        "incorrecta2": "El Bosque Retorcido"
+      }
+    
+]
+  

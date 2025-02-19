@@ -1,0 +1,158 @@
+
+@font-face {
+  font-family: 'BeaufortforLOL';
+  src: url('fonts/BeaufortforLOL-Medium.ttf') format('truetype');
+
+}
+
+@font-face {
+  font-family: 'SpiegelSans';
+  src: url('./fonts/SpiegelSans-5Regular_TRIAL.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+:root{
+  --font-titulo:'BeaufortforLOL', sans-serif ;
+  --font-textos: 'SpiegelSans', sans-serif;
+  --color-fondo: #091428;
+  --color-titulosdorados: #C8AA6E; 
+  --color-textos:#f0f8ff;
+  --color-footer: #0A323C;
+  --color-hover:#0AC8B9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--font-titulo);
+  background: linear-gradient(to right, #CDFAFA, #1E282D);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .main {
+    display: flex;
+    flex: 1;
+  }
+
+ .trivia{
+  display: flex;
+  font-family: var(--font-textos);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  background-color: var(--color-fondo);
+      width: 50%; 
+}
+
+.trivia h1{
+  font-family: var(--font-titulo);
+  color: var(--color-textos);
+  padding: 20px 0;
+}
+
+.trivia h2{
+  font-size: 16px;
+  color: var(--color-textos);
+  padding-top: 20px;
+}
+
+.logo{
+  width: 50%;
+  margin: auto;
+  padding-bottom:100px ;
+}
+
+.decoracion{
+  width: 60%;
+  padding-top: 20px;
+}
+
+.container{
+  background-image: url('./imagenes/fondo azul.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  width: 50%; 
+  padding: 50px;
+  }
+
+section{
+  background-color: var(--color-fondo);
+  border-radius: 8px;
+  color: var(--color-textos);
+  padding: 60px 30px;
+  display:flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  margin-right: 20px; /* Añade espacio entre el radio y el texto */
+}
+
+label{
+  display: block;
+  padding: 7px;
+  border-radius: 7px;
+  cursor: pointer;
+  border: 1px solid var(--color-titulosdorados);
+  margin-bottom: 3px;
+}
+
+
+
+label:hover {
+  background: linear-gradient(to right, #463714, #785A28);
+
+}
+
+/* conservara el estilo de color al dar click en un input*/
+label:has(input:checked) {
+  background: linear-gradient(to right, #463714, #785A28);
+}
+
+
+
+.btnsiguiente{
+  position: absolute;
+  width: auto;
+  border-radius: 4px;
+  color: var(--color-textos);
+  background: linear-gradient(to right, #005A82, #0AC8B9);
+  font-family: var(--font-textos);
+  font-size: 20px;
+  padding: 20px 70px;
+  display: flex;
+  justify-content: center;
+  right: 50px;
+}
+
+
+footer {
+  background-color: #0A323C; 
+  font-family: 'BeaufortforLOL', sans-serif;
+  color: #C8AA6E; 
+  text-align: center; 
+  padding: 20px 0; 
+  font-size: 20px;
+
+}
+
+
+
+.mi-titulo{
+  color: var(--color-fondo);
+}
+.mi-boton{
+  background-color: var(--color-footer);
+  font-family: var(--font-textos);
+}
