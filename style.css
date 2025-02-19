@@ -156,3 +156,120 @@ footer {
   background-color: var(--color-footer);
   font-family: var(--font-textos);
 }
+
+
+@media (max-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh; /* Ocupa el alto completo de la pantalla */
+    background: linear-gradient(to right, #CDFAFA, #1E282D);
+    justify-content:flex-end;
+  }
+
+  .trivia {
+    width: 80%; /* Aumenta el ancho de la trivia en pantallas pequeñas */
+    padding: 20px;
+    margin: 0 auto;
+    flex-shrink: 0; /* Evita que el contenedor se reduzca */
+  }
+
+  .logo {
+    width: 50%; /* Ajusta el tamaño de la imagen */
+    padding-bottom: 50px;
+    margin: 0 auto;
+  }
+
+  .container {
+    width: 90%; /* Aumenta el ancho del contenedor */
+    padding: 30px;
+    margin: 0 auto;
+    flex-grow: 1; /* Hace que el contenedor ocupe todo el espacio disponible */
+  }
+
+  section {
+    padding: 40px 20px;
+    margin-bottom: 20px;
+  }
+
+  .btnsiguiente {
+    padding: 10px 40px;
+    font-size: 18px;
+    max-width: 80%;
+    margin: 10px auto; /* Centra el botón */
+    position: relative; /* Asegura que el botón esté en su lugar sin sobreponerse */
+    z-index: 10;
+    align-self: center; /* Centra el botón dentro del contenedor */
+  }
+
+  footer {
+    font-size: 16px;
+    padding: 20px 10px;
+    position: relative;
+    z-index: 1;
+    margin-top: auto; /* Empuja el footer hacia abajo */
+    width: 100%; /* Asegura que el footer ocupe todo el ancho */
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to right, #CDFAFA, #1E282D);
+    justify-content:flex-end;
+  }
+
+  .trivia {
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    padding: 10px;
+    margin: 0 auto;
+    flex-shrink: 0;
+  }
+
+  .logo {
+    width: 70%; /* Ajusta el tamaño de la imagen */
+    padding-bottom: 30px;
+    margin: 0 auto;
+  }
+
+  .container {
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    flex-grow: 1;
+    justify-content: center;
+  }
+
+  section {
+    padding: 30px 15px;
+    margin-bottom: 15px;
+  }
+
+  .btnsiguiente {
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    right: 0;
+    max-width: 300px;
+    margin: 10px auto;
+    position: relative;
+    z-index: 10;
+    align-self: center;
+  }
+
+  footer {
+    font-size: 14px;
+    padding: 15px 10px;
+    position: relative;
+    z-index: 1;
+    margin-top: auto; /* Empuja el footer hacia abajo */
+    width: 100%;
+    text-align: center;
+  }
+}
